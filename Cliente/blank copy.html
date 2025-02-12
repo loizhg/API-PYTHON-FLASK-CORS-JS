@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANDAS app</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Analise de dados Pandas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="usuariosDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Usuarios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="usuariosDropdown">
+                            <a class="dropdown-item" href="registrar_usuario.html">Create</a>
+                            <a class="dropdown-item" href="leitura.html">Read</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="atualizar.html">Update</a>
+                            <a class="dropdown-item" href="deletar.html">Delete</a>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Vendedores registrados</h1>
+    <table class="my-table" id="api-data">
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+        </tr>
+    </table>
+
+    <!-- Botão "Voltar para o index" -->
+    <a class="botao-voltar" href="index.html">Voltar para o index</a>
+
+    <!-- Conteúdo da página aqui -->
+
+    <script src="app\usuario\leitura.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

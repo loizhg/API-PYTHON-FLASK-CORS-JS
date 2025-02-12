@@ -1,0 +1,150 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a lista de dados */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+*/
+
+/* Estilos para os dados da API */
+li p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Estilos para os botões de exclusão */
+button.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para espaçamento entre os botões */
+button.delete-button + button.delete-button {
+    margin-left: 10px;
+}
+
+/* Estilos para o formulário de adicionar usuário */
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Estilo para espaçamento entre os elementos */
+button + a {
+    margin-top: 20px;
+}
+
+/* Estilos comuns para todas as paginas */
+
+/* Estilos para o botão de retorno */
+a.botao-voltar {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/* Estilo para a tabela */
+.my-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para as células do cabeçalho da tabela */
+.my-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 12px 15px;
+}
+
+/* Estilo para as células da tabela */
+.my-table td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+/* Estilo para linhas alternadas da tabela */
+.my-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.my-table tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s;
+}
+
+
+
+
+
+
+/* Estilos para o formulário de atualização de usuário */
+/* Insira aqui o CSS específico para o formulário de atualização de usuário */
+
+/* Outros estilos específicos, se necessário */
